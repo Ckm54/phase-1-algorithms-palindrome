@@ -4,10 +4,19 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
+  1. split string to individual characters forming an array
+  2. call reverse method on the array
+  3. join the array
+  4. check if joined array is the same as input word
+  5. if same return true else return false
 */
 
 /*
   Add written explanation of your solution here
+  the method uses split() to conver input word into an array of characters.
+  using the array reverse method, the array is reversed so the last letter comes first
+  joining the array creates a new word that can be compared with the input value 
+  and when they are same return a value of true else return false
 */
 
 // You can run `node index.js` to view these console logs
